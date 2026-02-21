@@ -1,9 +1,10 @@
 services:
   - type: web
-    name: video-chat-app
+    name: secret-calls
     env: node
     buildCommand: npm install
     startCommand: npm start
     envVars:
       - key: NODE_ENV
+
         value: production
